@@ -1,17 +1,24 @@
+import xtreme from "./assets/images/xtreme.png"
+import tyny from "./assets/images/tyny.png"
+import chatty from "./assets/images/chatty.png"
+
 export const products = [
   // USE CHROME FULL PAGE EXTENTION
     {
       id: 1,
+      imgSrc: xtreme,
       img: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       link: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     },
     {
       id: 2,
+      imgSrc:tyny,
       img: "https://images.unsplash.com/photo-1594897030264-ab7d87efc473?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       link: "http://lama.dev",
     },
     {
       id: 3,
+      imgSrc: chatty,
       img: "https://images.unsplash.com/photo-1592492152545-9695d3f473f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
       link: "http://lama.dev",
     },

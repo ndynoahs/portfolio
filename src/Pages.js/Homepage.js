@@ -26,21 +26,25 @@ const Homepage = () => {
         </h2>
         <ul className='nav-list'>
           <li>
-            Home
+            <a href='#home'>Home </a>
+          </li>
+          <li >
+            <a href="#about">About </a>
           </li>
           <li>
-            About
+            <a href="#projects">Projects </a>
           </li>
-          <li>Projects</li>
           <li>
-            Contact
+            
+            <a href="#contact">Contact </a>
+
           </li>
 
         </ul>
         </div>
       </nav>
 
-      <section className='home'>
+      <section id="home" className='home'>
         <div className='container'> 
           <div className='content'>
             <div className='hero-main'>
@@ -56,8 +60,9 @@ const Homepage = () => {
                   </svg>
                 </span>
               </div>
-              <div className='hero-img'>
-                <img src={heroImage}/>
+              <div className='hero-img '>
+                <img src={heroImage} className='morph'/>
+                <span className='overlay'/>
               </div>
             </div>
             <div className='skills'>
@@ -80,7 +85,7 @@ const Homepage = () => {
         </div>
         
       </section>
-      <section className='about'>
+      <section id="about" className='about'>
         <div className='container'>
           <div className='about-img'>
             <img className="about-img-main" src={image6} />
@@ -112,7 +117,7 @@ const Homepage = () => {
         </div> */}
 
       </section>
-      <section className=''>
+      <section id='projects' className=''>
         {/* <h3>PORTFOLIO</h3>
         <h3>Each project is a unique piece of development 🧩</h3> */}
 
@@ -136,47 +141,33 @@ const Homepage = () => {
           </div>
         </div> */}
       </section>
-      <section className='contact'>
-        <h4>CONTACT</h4>
-        <h3>Don't be shy! Hit me up! 👇</h3>
-        {/* <div className='contact-details'>
-          <div className='contact-icon'>
-            <img src={image5} />
-            <div>
-
+      <section id='contact' className='contact'>
+        <div className='contact_items'> 
+          <h4>CONTACT</h4>
+          <h3>Don't be shy! Hit me up! 👇</h3>
+          <div class="contact__icons">
+            <div class="contact__icon-box">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-map-search"><path d="M11 18l-2 -1l-6 3v-13l6 -3l6 3l6 -3v7.5"></path><path d="M9 4v13"></path><path d="M15 7v5"></path><path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path><path d="M20.2 20.2l1.8 1.8"></path>
+                </svg>
+              </span>
+              <div class="contact__info">
+                <h3>Location</h3><p>Lagos, Nigeria</p>
+              </div>
+            </div>
+            <div class="contact__icon-box">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-mail"><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path><path d="M3 7l9 6l9 -6"></path></svg>
+              </span>
+              <div class="contact__info">
+                <h3>Mail</h3>
+                <a href="mailto:ibenoahs@gmail.com">
+                ibenoahs@gmail.com
+                </a>
+              </div>
             </div>
           </div>
-          <div className='contact-icon'>
-            <img src={image5} />
-            <div>
-              <h4>Mail</h4>
-              <p>ibenoahs@gmail.com</p>
-            </div>
           </div>
-        </div> */}
-
-        <div class="contact__icons">
-          <div class="contact__icon-box">
-            <span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-map-search"><path d="M11 18l-2 -1l-6 3v-13l6 -3l6 3l6 -3v7.5"></path><path d="M9 4v13"></path><path d="M15 7v5"></path><path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path><path d="M20.2 20.2l1.8 1.8"></path>
-              </svg>
-            </span>
-            <div class="contact__info">
-              <h3>Location</h3><p>Lagos, Nigeria</p>
-            </div>
-          </div>
-          <div class="contact__icon-box">
-            <span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-mail"><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path><path d="M3 7l9 6l9 -6"></path></svg>
-            </span>
-            <div class="contact__info">
-              <h3>Mail</h3>
-              <a href="mailto:stefan.topallovic@gmail.com">
-              stefan.topallovic@gmail.com
-              </a>
-            </div>
-          </div>
-        </div>
       </section>
 
       <Footer />
