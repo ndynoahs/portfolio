@@ -12,6 +12,7 @@ import image6 from "../assets/images/workspace.webp"
 import spiningImage from "../assets/images/spining-image.svg"
 import workingEmoji from "../assets/images/working-emoji.png"
 import Footer from '../components/Footer/Footer'
+import Navbar from '../components/Navbar'
 
 
 
@@ -19,7 +20,9 @@ import Footer from '../components/Footer/Footer'
 const Homepage = () => {
   return (
     <div className=''>
-      <nav className='nav'>
+      <Navbar />
+
+      {/* <nav className='nav'>
         <div className='nav-items'> 
         <h2>
           Kings.dev
@@ -42,7 +45,7 @@ const Homepage = () => {
 
         </ul>
         </div>
-      </nav>
+      </nav> */}
 
       <section id="home" className='home'>
         <div className='container'> 
