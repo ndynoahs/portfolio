@@ -27,7 +27,7 @@ const Homepage = () => {
           <div className='content'>
             <div className='hero-main'>
               <div className='hero-text'>
-                <h1 className='header_lg' > Front-End React <br/> Developer <img className='hand_icon' src={image} alt="waving-hand" /></h1>
+                <h1 className='header_lg' > Front-End React <br/> Developer <img className='hand_icon' src={image} alt="waving-hand"/></h1>
                 <p className='header_sm'>Hi, I'm Kingsley Ibe. A passionate Front-end React <br/> Developer based in Lagos, Nigeria. 📍</p>
                 <span className='hero-icons'>
                   <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 50 50">
@@ -39,7 +39,7 @@ const Homepage = () => {
                 </span>
               </div>
               <div className='hero_img_box '>
-                <img className="hero_img_box " src={heroImage} className='morph'/>
+                <img className="hero_img_box " src={heroImage} alt="profile" className='morph'/>
               </div>
             </div>
             <div className='skills'>
@@ -47,14 +47,14 @@ const Homepage = () => {
                 <h3>Tech Stack</h3>
                 <ul className='skills_icons_list'>
                     <li>
-                      <img src={image1}/>
+                      <img src={image1} alt='icons'/>
                     </li>
-                    <li><img src={image4} /></li>
+                    <li><img src={image4} alt='icons' /></li>
                     <li>
-                      <img src={image2}/>
+                      <img src={image2} alt='icons'/>
                     </li>
                     <li>
-                      <img src={image3}/>
+                      <img src={image3} alt="icons"/>
                     </li>
                 </ul>
               </div>
@@ -64,9 +64,9 @@ const Homepage = () => {
       <section id="about" className='about'>
         <div className='container'>
           <div className='about_img_box'>
-            <img className="about_img" src={image6} />
-            <img className='about_spinner ring' src={spiningImage}/> 
-            <img className='about_emoji' src={workingEmoji} />
+            <img className="about_img" src={image6} alt='about '  />
+            <img className='about_spinner ring' src={spiningImage} alt='icon'/> 
+            <img className='about_emoji' src={workingEmoji} alt='icon' />
           </div>
           <div className='about_text'>
             <p className='title'>ABOUT ME</p>
@@ -89,14 +89,6 @@ const Homepage = () => {
             </p> */}
           </div>
         </div>
-
-        {/* <div id="wrapper">
-
-          <div id="loading">
-            <img src="http://i.imgur.com/cW9hEgY.gif" class="ring" />
-            <img src="http://i.imgur.com/dfZJ7FW.gif" class="sphere" />
-          </div>
-        </div> */}
 
       </section>
       <section id='projects' className=''>
