@@ -1,15 +1,12 @@
 import React from 'react'
 import  "../assets/styles.css"
 import ProductList from "../components/productList/ProductList"
-// import heroImage from "../assets/images/kingsley-image.jpg"
 import heroImage from "../assets/images/profile_img2.jpeg"
-
 import image from "../assets/images/waving-hand.png"
 import image1 from "../assets/images/html-css-icons.svg"
 import image2 from "../assets/images/react nextjs-icons.svg"
 import image3 from "../assets/images/tailwind sass-icons.svg"
 import image4 from "../assets/images/javascript-type-icons.svg"
-import image5 from "../assets/images/place-marker.png"
 import image6 from "../assets/images/workspace.webp"
 import spiningImage from "../assets/images/spining-image.svg"
 import workingEmoji from "../assets/images/working-emoji.png"
@@ -39,7 +36,7 @@ const Homepage = () => {
                 </span>
               </div>
               <div className='hero_img_box '>
-                <img className="hero_img_box " src={heroImage} alt="profile" className='morph'/>
+                <img className="hero_img_box morph" src={heroImage} alt="profile" />
               </div>
             </div>
             <div className='skills'>
