@@ -75,9 +75,9 @@ const Homepage = () => {
             </p>
             <p className='sub-text'>
               Hey, my name is Kingsley, and I'm a Frontend Developer.
-              My <br/> passion is to create and develop a clean UI/UX for my users. 
+              My passion is to create and develop a clean UI/UX for my users. 
             </p>
-            <p className='sub-text'>My main stack currently is React/Next.js in combination with <br/>  
+            <p className='sub-text'>My main stack currently is React/Next.js in combination with   
               Tailwind CSS and TypeScript.</p>
               <p className='sub-text'>And I also work with Nodejs express and mongodb.</p>
             {/* <p className='sub-text'>As a Mid-Sinior Front-End Developer, 
