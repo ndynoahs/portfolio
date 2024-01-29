@@ -1,6 +1,5 @@
 import "./product.css"
 const Product = ({img, link, alt}) => {
-    console.log(alt)
     return (
         <div className="p">
             <div className="p-browser">

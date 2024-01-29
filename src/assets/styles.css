@@ -1,4 +1,12 @@
 
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 .nav{
     position: fixed;
     width: 100%;
@@ -11,14 +19,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 70px 0px 70px;
+    padding: 0px 70px 0px 70px;
 }
 
 .nav-items > svg {
     display: none;
     cursor: pointer;
 }
-
 
 .nav-list {
     list-style: none;
@@ -53,11 +60,23 @@
     width: 100%;
     background-color: #f9f9f9;
     z-index: 40;
-    /* transform: translateY(0); */
     /* transition: transform 0.3s linear; */
-    transition: all 5s ease;
+    /* transition: transform 0.5s linear; */
+    /* transition-delay: 2s, 4ms; */
 
 }
+
+.nav_animation {
+    transition: all 5s ease;
+    transform: translateX(50);
+
+    /* transform: translateX(-10%); */
+    transition-delay: 2s, 4ms;
+
+    /* animation: morph linear 6s infinite;
+    transition: transform 6s linear;
+    transform:rotateZ(0deg) rotateY(360deg); */
+  }
 
 .mobile_nav > span {
     display: flex;
@@ -83,26 +102,7 @@
     font-size: 23px;
     font-weight: 600;
 }
-
-.mobile-menu {
-    transform: translateY(0);
-    transition: transform 0.3s linear;
-  }
-  
-  /* .mobile-menu.hidden {
-    transform: translateY(-100%);
-  } */
-
-  .nav_animation {
-    /* transition: all 5s ease; */
-    transform: translateX(-1%);
-
-
-    /* animation: morph linear 6s infinite;
-    transition: transform 6s linear;
-    transform:rotateZ(0deg) rotateY(360deg); */
-  }
-
+ 
 @keyframes morph{
     0% {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
@@ -121,7 +121,7 @@
         padding-bottom: 10px;
     }
     .nav-items{
-        margin: 0px 40px 0px 40px;
+        padding: 0px 25px 0px 25px;
     }
     .nav-items > svg {
         display: flex;
@@ -206,8 +206,6 @@
     width: 850px;
 }
 .skills_box > h3{
-    /* border-right: solid black 2px; */
-    /* border-width: 20px; */
     border-right: black solid 2px;
     padding-right: 2rem;
     margin-right: 4rem;
@@ -277,8 +275,9 @@
         display: flex;
         justify-content: center;
     }
-    .hero-icons > svg{
-        width: 8%;
+    .hero-icons > a > svg{
+        width: 60%;
+        margin-right: 0px;
     }
     .skills_box{
         flex-direction: column;
@@ -292,6 +291,9 @@
     .skills_box > h3{
         border-bottom: rgba(0, 0, 0, 0.49) solid 2px;
         padding-bottom: 10px;
+        border-right: none;
+        padding-right: 0rem;
+        margin-right: 0rem;
     }
  
     .skills_icons_list{
@@ -577,7 +579,7 @@
 }
 
 .ring {
-  animation: ring linear 6s infinite;
+  animation: ring linear 8s infinite;
   transform:rotateZ(0deg) rotateY(360deg);
 }
 
