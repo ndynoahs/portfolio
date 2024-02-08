@@ -2,6 +2,7 @@ import React from 'react'
 import image6 from "../../assets/images/workspace.webp"
 import spiningImage from "../../assets/images/spining-image.svg"
 import workingEmoji from "../../assets/images/working-emoji.png"
+import cv from "../../assets/Kingsley Ibe Resume.pdf"
 
 const index = () => {
   return (
@@ -31,6 +32,16 @@ const index = () => {
             cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams 
             to produce outstanding web applications.
             </p> */}
+{/* 
+            <div div class="about__buttons">
+                    <a download="" href={cv} class="btn">
+                        Download CV <i class="fa fa-download"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20"  class="w-2 h-2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                    </svg>
+
+                    </a>
+             </div> */}
         </div>
         </div>
     </section>

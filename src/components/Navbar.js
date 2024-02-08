@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import logo from "../assets/images/kingsleylogo.png"
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
@@ -14,8 +15,9 @@ const Navbar = () => {
     <div> 
       <nav className='nav'>
         <div className='nav-items'> 
-          <h2>
-            Kings.dev
+          <h2 >
+          {/* <img src={logo} alt='' style={{width:"40px"}}/> */}
+             Kings.dev
           </h2>
           <svg  
             onClick={handleToggle} 

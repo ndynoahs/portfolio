@@ -7,6 +7,7 @@ const ProductList = () => {
     return (
         <div className="pl">
             <div className="pl-texts">
+
                 <h1 className="pl-title"> Each project is a unique piece of development 🧩</h1>
                 <p className="pl-desc">
                     Kingsley is a Creative developer that your project or company has been waiting for.
