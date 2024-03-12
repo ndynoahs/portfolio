@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-import logo from "../assets/images/kingsleylogo.png"
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)

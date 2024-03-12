@@ -2,7 +2,6 @@ import React from 'react'
 import image6 from "../../assets/images/workspace.webp"
 import spiningImage from "../../assets/images/spining-image.svg"
 import workingEmoji from "../../assets/images/working-emoji.png"
-import cv from "../../assets/Kingsley Ibe Resume.pdf"
 
 const index = () => {
   return (
