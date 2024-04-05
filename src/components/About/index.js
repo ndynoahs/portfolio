@@ -22,8 +22,8 @@ const index = () => {
               My passion is to create and develop a clean UI/UX for my users. 
               </p>
               <p className='sub-text'>My main stack currently is React/Next.js in combination with   
-              Tailwind CSS and TypeScript.</p>
-              <p className='sub-text'>And I also work with Nodejs express and mongodb.</p>
+              Tailwind CSS and TypeScript. And I also work with Nodejs express and mongodb.</p>
+              {/* <p className='sub-text'>And I also work with Nodejs express and mongodb.</p> */}
               {/* <p className='sub-text'>As a Mid-Sinior Front-End Developer, 
               I possess an impressive arsenal of  <br/> skills in HTML, CSS,  JavaScript, React, Tailwind, and SCSS. <br/>
               I excel in designing and maintaining responsive websites  <br/> that offer a smooth user experience.

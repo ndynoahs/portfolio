@@ -12,7 +12,9 @@ const index = () => {
         <div className='content'>
             <div className='hero-main'>
                 <div className='hero-text'>
-                    <h1 className='header_lg' > Front-End React <br/> Developer <img className='hand_icon' src={image} alt="waving-hand"/></h1>
+                    <h1 className='header_lg'>Front-End React <br/> Developer <img className='hand_icon' src={image} alt="waving-hand"/></h1>
+                    {/* <p className='header_lg'>Front-End React </p>  */}
+                    {/* <p className='header_lg'> Developer <img className='hand_icon' src={image} alt="waving-hand"/></p> */}
                     <p className='header_sm'>Hi, I'm Kingsley Ibe. A passionate Front-end React <br/> Developer based in Lagos, Nigeria. 📍</p>
                     <span className='hero-icons'>
                         <a href="https://linkedin.com/in/ibe-kingsley/" target="_blank" rel="noreferrer" >
@@ -34,7 +36,7 @@ const index = () => {
             </div>
             <div className='skills'>
                 <div className='skills_box'>
-                    <h3>Tech Stack</h3>
+                    <h3 className='skills_title'>Tech Stack</h3>
                     <ul className='skills_icons_list'>
                         <li>
                             <img src={image1} alt='icons'/>

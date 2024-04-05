@@ -13,7 +13,9 @@
 }
 .pl-title{
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 900;
+    font-family: "poppins", "serif";
+
 }
 .pl-desc{
     margin: 20px 0px;
@@ -45,4 +47,5 @@
         padding-top: 7rem;
         font-size: 30px;
     }
+    
 }

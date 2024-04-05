@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap');
+
 
 body{
     margin: 0;
@@ -21,10 +24,10 @@ body{
     align-items: center;
     padding: 0px 70px 0px 70px;
 }
-/* .nav-items > h2{
-    display: flex;
-    align-items: center;
-} */
+.nav_title{
+    font-family: 'Poppins', sans-serif;
+
+}
 
 .nav-items > svg {
     display: none;
@@ -60,9 +63,9 @@ body{
     position: fixed;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     width: 100%;
-    background-color: #f9f9f9;
+    background-color: #f9f9f9f9;
     z-index: 40;
     /* transition: transform 0.3s linear; */
     /* transition: transform 0.5s linear; */
@@ -82,7 +85,7 @@ body{
     transform:rotateZ(0deg) rotateY(360deg); */
   }
 
-.mobile_nav > span {
+.mobile_nav > .toggleButton {
     display: flex;
     align-self: self-end;
     position: absolute;
@@ -94,6 +97,8 @@ body{
     list-style: none;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .mobile_nav_list > li{
     margin-bottom: 50px;
@@ -105,6 +110,8 @@ body{
     text-decoration: none;
     font-size: 23px;
     font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+
 }
  
 @keyframes morph{
@@ -147,8 +154,11 @@ body{
  font-size: 55px;
  font-weight: 900;
  color: #2d2e32;
- font-family:  sans-serif
-}
+ align-self: "center";
+ font-family: 'Poppins', sans-serif;
+ line-height: 60px;
+
+};
 
 .header_sm{
     font-size: 19px;
@@ -194,6 +204,8 @@ body{
     border-style: solid;
     border-width: 3px;
     height: 22rem;
+    width: 100%;
+    /* object-fit: contain; */
 }
 
 .skills{
@@ -209,10 +221,11 @@ body{
     align-items: center;
     width: 850px;
 }
-.skills_box > h3{
+.skills_title{
     border-right: black solid 2px;
     padding-right: 2rem;
     margin-right: 4rem;
+    font-family: "poppins", "serif";
 }
 .skills_icons_list{
     display: flex;
@@ -246,9 +259,10 @@ body{
 
 @media screen and (max-width: 900px){
     .header_lg{
-        font-size: 50px;
+        font-size: 42px;
         text-align: center;
         padding-top: 20px;
+
     }
     .header_sm{
         font-size: 18px;
@@ -259,22 +273,24 @@ body{
         height:fit-content;
     }
     .content{
-        display: flex;
-        align-items: center;
-        padding-top: 100px;
-        padding:10px
+        padding-top: 120px;
     }
     .hero-main{
         display: flex;
         flex-direction: column-reverse;
     }
+    .hand_icon{
+        width: 40px;
+        height:40px;
+    }
   
     .hero_img_box >img{
         border-radius: 360%;
         border-style:solid;
-        border-width: 2px;
-        /* width: 100%; */
-        height: 17rem;
+        border-width: 3px;
+        width: 20rem;
+        height: 20rem;
+        object-fit: cover;
     }
     .hero-icons{
         display: flex;
@@ -311,6 +327,13 @@ body{
     }
 }
 
+@media screen and (max-width: 600px){
+    .hero_img_box >img{
+        width: 60%;
+        height: 40vh;
+    };
+}
+
 
 /* BUTTONS */
 .btn{
@@ -342,6 +365,7 @@ body{
      /* width: 90%; */
     justify-content: space-evenly;
     align-items: center;
+    
 }
 .about_img_box{
     position: relative;
@@ -354,6 +378,7 @@ body{
     width: 100%;
     max-width: 100%;
     height: 23rem;
+    object-fit: cover;
 }
 
 .about_spinner{
@@ -379,17 +404,21 @@ body{
     color: #1772eb;
     font-weight: 900;
     font-size: 19px;
+    font-family: "poppins", "serif";
 }
 
 .about_text > .sub-title{
     font-size: 26px;
     font-weight: 900;
+    font-family: "poppins", "serif";
+
 }
 .about_text > .sub-text{
     color: #767676; 
-    font-weight: 600;
-    line-height: 25px;
+    font-weight: 700;
+    line-height: 27px;
     font-size: 17px;
+    font-family: "mulish";
 }
 
 .about-text > h6{
@@ -398,13 +427,21 @@ body{
 }
 
 @media screen and (max-width: 1024px){
+    .about_img{
+        position: relative;
+        border-radius: 20px;
+        width: 100%;
+        height: 17rem;
+        object-fit: cover;
+    }
     .about_img_box{
         position: relative;
-        width: 400px;
+        width: 86%;
         margin-right: 0rem;
     }
     .about{
-        height: 120vh;
+        height: 130vh;
+        padding: 0rem 0;
     }
     .about > .container{
         flex-direction: column;
