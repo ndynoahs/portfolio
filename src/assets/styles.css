@@ -334,8 +334,8 @@ body{
         justify-content: center;
     }
     .hero-icons > a > svg{
-        width: 60%;
-        margin-right: 0px;
+        width: 50px;
+        margin-right: 10px;
     }
     .skills_box{
         flex-direction: column;
@@ -366,8 +366,8 @@ body{
 
 @media screen and (max-width: 600px){
     .hero_img_box >img{
-        width: 60%;
-        height: 40vh;
+        width: 20rem;
+        height: 18rem;
     };
 }
 
