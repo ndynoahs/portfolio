@@ -30,22 +30,35 @@
     /* overflow-y: scroll; */
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 1024px){
     .pl{
         padding: 10px;
     }
-
-    .pl-texts{
-        width: 100%;
+    .pl-title{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        font-size: 35px;
     }
+    .pl-texts{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    /* .pl{
+        padding: 10px;
+    } */
+
+    /* .pl-texts{
+        width: 100%;
+    } */
 
     .pl-desc{
         display: none;
     }
 
-    .pl-title{
-        padding-top: 7rem;
+    /* .pl-title{
         font-size: 30px;
-    }
+    } */
     
 }

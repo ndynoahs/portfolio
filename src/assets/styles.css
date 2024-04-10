@@ -10,7 +10,7 @@ body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.nav{
+/* .nav{
     position: fixed;
     width: 100%;
     background-color: #ffff;
@@ -26,7 +26,6 @@ body{
 }
 .nav_title{
     font-family: 'Poppins', sans-serif;
-
 }
 
 .nav-items > svg {
@@ -67,22 +66,12 @@ body{
     width: 100%;
     background-color: #f9f9f9f9;
     z-index: 40;
-    /* transition: transform 0.3s linear; */
-    /* transition: transform 0.5s linear; */
-    /* transition-delay: 2s, 4ms; */
-
 }
 
 .nav_animation {
     transition: all 5s ease;
     transform: translateX(50);
-
-    /* transform: translateX(-10%); */
     transition-delay: 2s, 4ms;
-
-    /* animation: morph linear 6s infinite;
-    transition: transform 6s linear;
-    transform:rotateZ(0deg) rotateY(360deg); */
   }
 
 .mobile_nav > .toggleButton {
@@ -144,7 +133,7 @@ body{
     .nav-list {
         display: none;
     }
-}
+} */
 
 
 
@@ -203,9 +192,9 @@ body{
     border-radius: 360%;
     border-style: solid;
     border-width: 3px;
-    height: 22rem;
-    width: 100%;
-    /* object-fit: contain; */
+    height: 20rem;
+    width: 22rem;
+    object-fit: cover;
 }
 
 .skills{
@@ -431,14 +420,15 @@ body{
         position: relative;
         border-radius: 20px;
         width: 100%;
-        height: 17rem;
+        height: 20rem;
         object-fit: cover;
     }
     .about_img_box{
         position: relative;
-        width: 86%;
+        width: 25rem;
         margin-right: 0rem;
     }
+   
     .about{
         height: 130vh;
         padding: 0rem 0;
@@ -521,9 +511,6 @@ body{
     align-items: center;
     margin-right: 90px;
 }
-.contact__info{
-    text-align: center;
-}
 
 .contact__info > h3{
     font-weight: 900;
@@ -541,9 +528,6 @@ body{
 }
 
 .contact__icon-box  > span {
-    /* height: 40px; */
-    /* box-shadow: 40px #2d2e32; */
-    /* box-shadow: 10px 10px; */
     margin-right: 20px;
     padding: 10px;
     background-color: #ffffff;
@@ -568,6 +552,11 @@ body{
         margin-right: 0px;
         margin-bottom: 40px;
     }
+    .contact__icon-box  > span {
+        margin-right: 0px;
+
+    }
+
     .contact_items > h3{
         font-size: 24px;
     }

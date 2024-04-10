@@ -1,0 +1,247 @@
+
+.nav{
+    position: sticky;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+  
+
+
+}
+
+
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0rem;
+    position: fixed;
+    background-color: #ffff;
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc;
+}
+
+.nav_title{
+    width: 55%;
+    font-size:23px;
+    font-family: 'Poppins', sans-serif;
+}
+
+ .nav-list{
+    align-items: center;
+    display: flex;
+   width: 350px;
+    justify-content: space-between;
+ }
+
+ .nav-list > li{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+
+ }
+
+.nav-list > li > a{
+    color: #2d2e32;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+ .toggleButton{
+    display:none;
+ }
+ .toggleClose {
+    display:none;
+ }
+
+
+ .mobile_nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    z-index: 40;
+    background-color: #fffffff1;
+    width:100%;
+    height: 100%;
+    top:0%;
+    left: 0%;
+    padding-top: 30px;
+ }
+
+ .mobile_nav_list{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    padding-left: 0;
+    align-items: center;
+    padding-top: 8rem;
+ }
+ .mobile_nav_list > li{
+    list-style: none;
+    padding-bottom: 40px;
+   /* padding-right: 20px; */
+ }
+ .mobile_nav_list > li > a{
+    text-decoration: none;
+    color: #2d2e32;
+    font-weight: 500;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+
+ }
+ .mobile_nav_list > li a:hover {
+    color: #147efb;
+    cursor: pointer;
+}
+
+@keyframes morph{
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+      }
+      50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+      }
+      100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+      }
+}
+
+@media screen and (max-width: 1024px){
+    .nav_title{
+        width: 50%;
+        font-size:23px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .nav-list{
+        align-items: center;
+        display: flex;
+        width:40%;
+        justify-content: space-between;
+     }
+
+    
+    
+}
+
+@media screen and (max-width: 900px){
+    .nav-list{
+        display: none;
+    }
+
+    .toggleButton{
+        display: flex;
+        align-items: end;
+    }
+
+    .toggleButton {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .toggleClose{
+        display: flex;
+        justify-content:end;
+        width: 80%;
+    }
+    .toggleClose > svg{
+        display: flex;
+        cursor: pointer;
+
+    }
+
+    .nav_title{
+        width: 80%;
+    }
+
+
+    .nav-items{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-top: 4rem;
+        padding-top: 1.5rem;
+        position: fixed;
+        background-color: #ffff;
+    }
+}
+
+/* .menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.menu-lg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    background-color: #ffffff;
+    z-index: 30;
+    width: 90%;
+}
+.menu_list{
+    list-style: none;
+    display: flex;
+    font-weight: 700;
+    font-size: 17px;
+    color: #2d2e32;
+}
+
+.toggleButton {
+    display: none;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.menu_list > li {
+    padding-right: 35px;
+}
+
+.menu_list > li > a{
+    color: #2d2e32;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-list > li a:hover {
+    color: #147efb;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px){
+    .nav{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .nav-items{
+        padding: 0px 25px 0px 25px;
+    }
+
+    .menu-lg{
+        padding: 10px;
+    }
+    .toggleButton {
+        display: flex;
+    }
+    .menu_list > h2  {
+        font-size: 19px;
+        font-weight: 0;
+    }
+    .menu_list {
+        display: none;
+    }
+}  */
