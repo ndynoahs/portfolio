@@ -1,7 +1,5 @@
 import React from 'react'
 import  "../assets/styles.css"
-import  "../assets/menuStyle.css"
-
 
 import ProductList from "../components/productList/ProductList"
 import Footer from '../components/Footer/Footer'

@@ -23,11 +23,9 @@
 
 .pl-list{
     width: 100%;
-    /* height: 100vh; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* overflow-y: scroll; */
 }
 
 @media screen and (max-width: 1024px){
@@ -45,20 +43,9 @@
 }
 
 @media screen and (max-width: 480px){
-    /* .pl{
-        padding: 10px;
-    } */
-
-    /* .pl-texts{
-        width: 100%;
-    } */
 
     .pl-desc{
         display: none;
     }
-
-    /* .pl-title{
-        font-size: 30px;
-    } */
     
 }
