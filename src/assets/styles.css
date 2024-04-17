@@ -266,12 +266,18 @@ body{
 }
 .skills_icons_list{
     display: flex;
+    justify-items: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
 }
 .skills_icons_list > li{
     list-style: none;
-    padding-right: 25px;
     transition: all 2s ease;
 }
+
 
 .skills > ul > li:hover{
     transform: translateY(-50%);
@@ -295,6 +301,9 @@ body{
 }
 
 @media screen and (max-width: 900px){
+    .hero-text{
+        padding: 15px;
+    }
     .header_lg{
         font-size: 42px;
         text-align: center;
@@ -302,7 +311,7 @@ body{
 
     }
     .header_sm{
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
         color: #2d2e32;
     }
@@ -451,7 +460,7 @@ body{
 
 }
 .about_text > .sub-text{
-    color: #767676; 
+    /* color: #767676;  */
     font-weight: 700;
     line-height: 27px;
     font-size: 17px;
@@ -496,7 +505,7 @@ body{
     .about_text{
         width: 60%;
         text-align: center;
-        padding-top: 20px;
+        padding-top: 50px;
     }
 }
 
@@ -513,8 +522,8 @@ body{
     }
     .about_text{
         width: 90%;
-        text-align: center;
-        padding-top: 20px;
+        text-align:start;
+        /* padding-top: 20px; */
     }
 }
 
