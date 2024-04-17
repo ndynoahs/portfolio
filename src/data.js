@@ -14,10 +14,10 @@ export const products = [
   // USE CHROME FULL PAGE EXTENTION
     {
       id: 1,
-      imgSrc: setoop,
-      img: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-      link: "https://setoop.com",
-      alt: "setoop"
+      imgSrc:tyny,
+      img: "https://images.unsplash.com/photo-1594897030264-ab7d87efc473?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      link:"https://tyny.dev",
+      alt: "tyny",
     },
     {
       id: 2,
@@ -35,10 +35,11 @@ export const products = [
     },
     {
       id: 4,
-      imgSrc:tyny,
-      img: "https://images.unsplash.com/photo-1594897030264-ab7d87efc473?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-      link:"https://tyny.dev",
-      alt: "tyny"
+      imgSrc: setoop,
+      img: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      link: "https://setoop.com",
+      alt: "setoop",
+ 
     },
     {
       id: 5,
