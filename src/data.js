@@ -18,7 +18,7 @@ export const products = [
   {
     id: 1,
     imgSrc: klinfast,
-    link: "https://amazingwargame.netlify.app/",
+    link: "https://klinfast.com",
     alt: "klinfast",
   },
   {
