@@ -2,14 +2,14 @@ import setoop from "./assets/images/setoop.png";
 import xtreme from "./assets/images/xtreme.png";
 import tyny from "./assets/images/tyny.png";
 import chatty from "./assets/images/chatty.png";
-import wargame from "./assets/images/wargame.png";
+// import wargame from "./assets/images/wargame.png";
 
-import sunnyside from "./assets/images/sunnyside.png";
-import acetube from "./assets/images/acetube.png";
-import rockPaper from "./assets/images/rockpaper.png";
-import gallary from "./assets/images/gallary-app.png";
+// import sunnyside from "./assets/images/sunnyside.png";
+// import acetube from "./assets/images/acetube.png";
+// import rockPaper from "./assets/images/rockpaper.png";
+// import gallary from "./assets/images/gallary-app.png";
 import klinfast from "./assets/images/klinfast.png";
-import htmlPortfolio from "./assets/images/html_portfolio.png";
+// import htmlPortfolio from "./assets/images/html_portfolio.png";
 
 import rmfd from "./assets/images/rmdf.png";
 export const products = [
