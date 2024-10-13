@@ -95,3 +95,41 @@ export const products = [
   //   alt: "ace tube"
   // },
 ];
+
+export const experience = [
+  {
+    id: 1,
+    date: "Feb 20 - June 24",
+    title: "Team Lead, KlinFast App ",
+    company: "TOTALLY NERDY",
+    location: "NOTTINGHAMSHIRE, UNITED KINGDOM",
+  },
+  {
+    id: 2,
+    date: "Sep 21 – Feb 24",
+    title: "Front-end developer",
+    company: "TOTALLY NERDY",
+    location: "NOTTINGHAMSHIRE, UNITED KINGDOM",
+  },
+  {
+    id: 3,
+    date: "Sep 21 – Feb 24",
+    title: "Blockchain Intern",
+    company: "TH.O IT SERVICES",
+    location: "LONDON, ENGLAND",
+  },
+  {
+    id: 4,
+    date: "Sep 20 – Feb 24",
+    title: "Ace Africa Software ",
+    company: "TH.O IT SERVICES",
+    location: "LAGOS NIGERIA",
+  },
+];
+
+// ACE AFRICA SOFTWARE - LAGOS NIGERIA
+{
+  /* <div class="card-date">Jan 2023 - Oct 2024</div>
+<div class="card-title">Front-End Developer</div>
+<div class="card-company">TechCorp Ltd, Lagos</div> */
+}

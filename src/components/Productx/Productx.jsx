@@ -1,5 +1,5 @@
 import "./product.css"
-const Product = ({img, link, alt}) => {
+const Productx = ({img, link, alt}) => {
     return (
         <div className="p">
             <div className="p-browser">
@@ -19,4 +19,4 @@ const Product = ({img, link, alt}) => {
     )
 }
 
-export default Product
+export default Productx
