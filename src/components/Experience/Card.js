@@ -13,9 +13,3 @@ const Card = ({ data }) => {
 };
 
 export default Card;
-
-{
-  /* <div class="card-date">Jan 2023 - Oct 2024</div>
-<div class="card-title">Front-End Developer</div>
-<div class="card-company">TechCorp Ltd, Lagos</div> */
-}
