@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className="nav">
       <div className="nav-items">
         <h3 className="nav_title">Kings.dev</h3>
-        <div>
+        <div className="menu_icon">
           {toggleMenu ? (
             <div className="toggleClose">
               <svg
@@ -67,18 +67,22 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className={`side-menu ${toggleMenu ? "active" : ""}`}>
+      <div className={`side_menu ${toggleMenu ? "active" : ""}`}>
+        <h3 className="side_title">
+          <span className="">KINGS</span> DEV
+        </h3>
+
         <ul className="mobile_nav_list">
-          <li>
+          <li onClick={handleToggle}>
             <a href="#home">Home </a>
           </li>
-          <li>
+          <li onClick={handleToggle}>
             <a href="#about">About </a>
           </li>
-          <li>
+          <li onClick={handleToggle}>
             <a href="#projects">Projects </a>
           </li>
-          <li>
+          <li onClick={handleToggle}>
             <a href="#contact">Contact </a>
           </li>
         </ul>

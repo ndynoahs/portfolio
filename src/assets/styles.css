@@ -66,6 +66,13 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+    .menu_icon{
+        display: flex;
+        justify-content: center;
+        background-color: #2d2e32f8;
+        border-radius: 5px;
+        padding: 1px;
+    }
  .toggleButton{
     display:none;
  }
@@ -104,7 +111,7 @@ body{
  }
  .mobile_nav_list > li > a{
     text-decoration: none;
-    color: black;
+    color: rgb(228, 222, 222);
     font-weight: 500;
     font-size: 23px;
     font-family: 'Poppins', sans-serif;
@@ -115,11 +122,11 @@ body{
     cursor: pointer;
 }
 
-.side-menu {
+.side_menu {
     display: none;
   }
 
-.side-menu.active {
+.side_menu.active {
     left: 0;
   }
 
@@ -158,23 +165,35 @@ body{
         display: flex;
         align-items:flex-end;
         cursor: pointer;
+        color: white;
+    }
+
+    .side_title{
+        color: white;
+        font-weight: 700;
+        font-size: 28px;
+        font-family: 'Poppins', sans-serif;    
+    }
+
+    .side_title > span{
+        color: #147efb;
     }
 
 
-    .side-menu {
+
+    .side_menu {
         position: fixed;
         top: 0;
         left: -100%; /* Initially hidden off-screen */
         width: 70%; /* Full width */
         height: 100%; /* Full height */
-        background-color: white; /* Semi-transparent background */
+        background-color: rgba(0, 0, 0, 0.852); /* Semi-transparent background */
         color: white;
         transition: left 0.3s ease-in-out;
       
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
         gap: 20px; /* Spacing between elements */
         padding: 20px;
       
@@ -184,7 +203,7 @@ body{
         display: flex;
         justify-content:flex-end;
         width: 85%;
-        color: black;
+        color: white;
     }
     .toggleClose > svg{
         display: flex;

@@ -40,7 +40,7 @@
 
    /* Date Row */
    .card-date {
-    background-color: gray;
+    background: linear-gradient(to right, black, rgb(109, 109, 109));
     color: white;
     width: 50%;
     text-align: center;
