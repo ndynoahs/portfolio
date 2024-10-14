@@ -5,7 +5,9 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: white;    
+    /* background-color: white;     */
+    background-color: #f9f9f9;
+
 }
 .experience-container{
     width: 100%;
@@ -38,7 +40,7 @@
 
    /* Date Row */
    .card-date {
-    background-color: black;
+    background-color: gray;
     color: white;
     width: 50%;
     text-align: center;
@@ -47,6 +49,12 @@
     font-weight: bold;
   }
   
+
+  .gradient-bg {
+  background: linear-gradient(to right, #2563eb, #93c5fd);
+}
+
+
 
   @media screen and (max-width: 480px){
     .experience{
