@@ -29,14 +29,17 @@ const index = () => {
             Tailwind CSS and TypeScript. And I also work with Nodejs express and
             mongodb.
           </p>
-          {/* <p className='sub-text'>And I also work with Nodejs express and mongodb.</p> */}
-          {/* <p className='sub-text'>As a Mid-Sinior Front-End Developer, 
-              I possess an impressive arsenal of  <br/> skills in HTML, CSS,  JavaScript, React, Tailwind, and SCSS. <br/>
-              I excel in designing and maintaining responsive websites  <br/> that offer a smooth user experience.
-              My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing 
-              cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams 
-              to produce outstanding web applications.
-              </p> */}
+          {/* <p className="sub-text">
+            As a Mid-Sinior Front-End Developer, I possess an impressive arsenal
+            of skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS.{" "}
+            <br />
+            I excel in designing and maintaining responsive websites <br /> that
+            offer a smooth user experience. My expertise lies in crafting
+            dynamic, engaging interfaces through writing clean and optimized
+            code and utilizing cutting-edge development tools and techniques. I
+            am also a team player who thrives in collaborating with
+            cross-functional teams to produce outstanding web applications.
+          </p> */}
           {/* 
               <div div class="about__buttons">
                       <a download="" href={cv} class="btn">

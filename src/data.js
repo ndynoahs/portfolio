@@ -2,6 +2,9 @@ import setoop from "./assets/images/setoop.png";
 import xtreme from "./assets/images/xtreme.png";
 import tyny from "./assets/images/tyny.png";
 import chatty from "./assets/images/chatty.png";
+import ikvMovies from "./assets/images/ikv.png";
+import tokrealApp from "./assets/images/tokreal image.png";
+
 // import wargame from "./assets/images/wargame.png";
 
 // import sunnyside from "./assets/images/sunnyside.png";
@@ -56,19 +59,19 @@ export const products = [
     link: "https://chatty-f8fe.onrender.com/chats",
     alt: "chatty",
   },
-  // {
-  //   id: 7,
-  //   imgSrc: htmlPortfolio,
-  //   link: "#",
-  //   alt: "hmtl portfolio",
-  // },
+  {
+    id: 7,
+    imgSrc: ikvMovies,
+    link: "#",
+    alt: "hmtl portfolio",
+  },
 
-  // {
-  //   id: 8,
-  //   imgSrc: gallary,
-  //   link: "https://responsive-photo-gallery.netlify.app/",
-  //   alt: "gallary image",
-  // },
+  {
+    id: 8,
+    imgSrc: tokrealApp,
+    link: "https://tokrealApp",
+    alt: "gallary image",
+  },
   // {
   //   id: 9,
   //   imgSrc: wargame,

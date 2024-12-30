@@ -447,6 +447,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 90vh;
+    background-color: #ffffff;
 }
 
 .about > .container {
@@ -606,6 +607,7 @@ body{
 .contact{
     display: flex;
     justify-content: center;
+    background-color: #ffffff;
 }
 
 .contact_items{
